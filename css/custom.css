@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbarinti{
+    background: linear-gradient(90deg, rgb(5, 23, 105), rgb(86, 11, 184),#0066ff);
+}
+.wrapper-header {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-size: 1.2em;
+    background: linear-gradient(90deg, rgb(5, 23, 105), rgb(86, 11, 184),#0066ff);
+ 
+  }   
+.wrapper-skill {
+    width:100%;
+    
+ }    
+    
+
+ 
+
+  /* skew rotasi animasi */
+.skew1{
+    position:absolute;
+    bottom: -100%;
+    left: 40%;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transform: skewY(-15deg);
+    transform-origin: top left;
+    
+   
+    
+    
+}
+.skew2{
+    position:absolute;
+    bottom: -100%;
+    right: 40%;
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    transform: skewY(15deg);
+    transform-origin: top right;
+  
+   
+}
+/* akhir rotasi skew */
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 50px 100px;
+    z-index: 100000;
+    transition:0.6s;
+}
+header .navbar{
+    margin-top: 20px;
+    transition: 0.6s;
+}
+header.sticky{
+    padding: 5px 100px;
+    background: linear-gradient(90deg, rgb(5, 23, 105), rgb(86, 11, 184),#0066ff);
+    opacity: .8;
+  
+
+}
+header.sticky .navbar{
+    margin-top: 0;
+    transition: 0.6s;
+}
+
+
+/* svg animate */
+#taufik{
+   
+    left:-5%;
+    top:-30px;
+    animation: warna 2.5s ease forwards 2s !important;
+    
+}
+#taufik path:nth-child(1){
+    stroke-dasharray: 179px;
+    stroke-dashoffset: 179px;
+    animation:line-anim 2.5s ease forwards;
+    
+    
+}
+#taufik path:nth-child(2){
+    stroke-dasharray: 255px;
+    stroke-dashoffset: 255px;
+    animation:line-anim 2.5s ease forwards 0.2s;
+    
+}
+#taufik path:nth-child(3){
+    stroke-dasharray: 215px;
+    stroke-dashoffset: 215px;
+    animation:line-anim 2.5s ease forwards 0.3s;
+    
+}
+#taufik path:nth-child(4){
+    stroke-dasharray: 164px;
+    stroke-dashoffset: 164px;
+    animation:line-anim 2.5s ease forwards 0.4s;
+    
+}
+#taufik path:nth-child(5){
+    stroke-dasharray: 149px;
+    stroke-dashoffset: 149px;
+    animation:line-anim 2.5s ease forwards 0.5s;
+    
+}
+#taufik path:nth-child(6){
+    stroke-dasharray: 248px;
+    stroke-dashoffset: 248px;
+    animation:line-anim 2.5s ease forwards 0.6s;
+    
+}
+#taufik path:nth-child(7){
+    stroke-dasharray: 269px;
+    stroke-dashoffset: 269px;
+    animation:line-anim 2.5s ease forwards 0.7s;
+    
+}
+
+#taufik path:nth-child(8){
+    stroke-dasharray: 149px;
+    stroke-dashoffset: 149px;
+    animation:line-anim 2.5s ease forwards 0.8s;
+    
+}
+#taufik path:nth-child(9){
+    stroke-dasharray: 251px;
+    stroke-dashoffset: 251px;
+    animation:line-anim 2.5s ease forwards 0.9s;
+    
+}
+#taufik path:nth-child(10){
+    stroke-dasharray: 255px;
+    stroke-dashoffset: 255px;
+    animation:line-anim 2.5s ease forwards 0.3s;
+    
+}
+#taufik path:nth-child(11){
+    stroke-dasharray: 222px;
+    stroke-dashoffset: 222px;
+    animation:line-anim 2.5s ease forwards 0.4s;
+    
+}
+#taufik path:nth-child(12){
+    stroke-dasharray: 225px;
+    stroke-dashoffset: 225px;
+    animation:line-anim 2.5s ease forwards 0.5s;
+    
+}
+#taufik path:nth-child(13){
+    stroke-dasharray: 160px;
+    stroke-dashoffset: 160px;
+    animation:line-anim 2.5s ease forwards 0.3s;
+    
+}
+#taufik path:nth-child(14){
+    stroke-dasharray: 215px;
+    stroke-dashoffset: 215px;
+    animation:line-anim 2.5s ease forwards 0.4s;
+    
+}
+#taufik path:nth-child(15){
+    stroke-dasharray: 131px;
+    stroke-dashoffset: 131px;
+    animation:line-anim 2.5s ease forwards 0.5s;
+    
+}
+#taufik path:nth-child(16){
+    stroke-dasharray: 131px;
+    stroke-dashoffset: 131px;
+    animation:line-anim 2.5s ease forwards 0.6s;
+    
+}
+#taufik path:nth-child(17){
+    stroke-dasharray: 190px;
+    stroke-dashoffset: 190px;
+    animation:line-anim 2.5s ease forwards 0.7s;
+    
+}
+#taufik path:nth-child(18){
+    stroke-dasharray: 241px;
+    stroke-dashoffset: 241px;
+    animation:line-anim 2.5s ease forwards 0.8s;
+    
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+   
+}
+@keyframes warna{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:rgb(255, 255, 255);
+    }
+}
+
+/* end animate svg */
