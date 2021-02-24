@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 <link rel="stylesheet" href="css/custom.css">
@@ -12,13 +13,11 @@
     <!-- navbar -->
     <header>
     <nav class="navbarinti navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+        <div class="container">
+          <a class="navbar-brand" href="#">Taufik</a>
+          <div class="row justify-content-between">
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="list navbar-nav ">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#">Features</a>
               <a class="nav-link" href="#">Pricing</a>
@@ -27,19 +26,20 @@
             </div>
           </div>
         </div>
+        </div>
       </nav>
 </header>
     <!-- akhir navbar -->
     <!-- wrapper-header -->
-   <section class="wrapper-header bg-primary">
+   <section class="wrapper-header mb-5">
        <div class="container">
         <div class="row ">
-            <div class="fs-1 text-primary">Yo, <span class="text-light">I'm</span> </div>
+            <div class="fs-1 ppk text-primary ">Yo, <span class="text-light">I'm</span> </div>
             
             
         </div>
          
-        <svg width="550" height="80" id="taufik"viewBox="0 0 725 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="550" height="80" id="taufik"viewBox="0 0 725 80" fill="none"  xmlns="http://www.w3.org/2000/svg">
 
             <path d="M40.824 8.45601V18.32H27.432V59H15.12V18.32H1.728V8.45601H40.824Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
             <path d="M44.5551 38.84C44.5551 34.712 45.3231 31.088 46.8591 27.968C48.4431 24.848 50.5791 22.448 53.2671 20.768C55.9551 19.088 58.9551 18.248 62.2671 18.248C65.0991 18.248 67.5711 18.824 69.6831 19.976C71.8431 21.128 73.4991 22.64 74.6511 24.512V18.824H86.9631V59H74.6511V53.312C73.4511 55.184 71.7711 56.696 69.6111 57.848C67.4991 59 65.0271 59.576 62.1951 59.576C58.9311 59.576 55.9551 58.736 53.2671 57.056C50.5791 55.328 48.4431 52.904 46.8591 49.784C45.3231 46.616 44.5551 42.968 44.5551 38.84ZM74.6511 38.912C74.6511 35.84 73.7871 33.416 72.0591 31.64C70.3791 29.864 68.3151 28.976 65.8671 28.976C63.4191 28.976 61.3311 29.864 59.6031 31.64C57.9231 33.368 57.0831 35.768 57.0831 38.84C57.0831 41.912 57.9231 44.36 59.6031 46.184C61.3311 47.96 63.4191 48.848 65.8671 48.848C68.3151 48.848 70.3791 47.96 72.0591 46.184C73.7871 44.408 74.6511 41.984 74.6511 38.912Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
@@ -73,104 +73,153 @@
            <div class="col col-12">
                <h1 class="col-sm-1 border-primary border-bottom text-center border-3 mt-5">Skills</h1>
            </div>
+        </div>       
+      
+        <!-- skill tab -->
+        <!-- button tab -->
+        
+        <div class="row-4  mb-4 mt-5 ">
+            <ul class="nav nav-pills mb-3 justify-content-center " id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Developing</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Design</button>
+                </li>
+            </ul>
+        
         </div>
-        <div class="row-4 text-center justify-content-around mb-4 ">
-
-                <div class="btn btn-outline-primary rounded-pill col-1 ">Developing</div>
-                <div class="btn btn-outline-primary rounded-pill col-1 ">Design</div> 
+        
+              <!-- akhir button tab -->
+              <!-- konten tab -->
+              <div class="row justify-content-center" >
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                   
-        </div>
-        <hr>
-        <!-- row skill -->
-            <div class="row mb-4">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
+                    <div class="row mb-4">
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf  shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-html5 fs-1 text-warning" ></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px;">HTML</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">3 years</div></div>
+                            </div>
                         </div>
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-css3-alt fs-1 text-info" ></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px;">CSS</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">3 years</div></div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-php fs-1 text-primary" ></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px;">PHP</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">3 years</div></div>
+                            </div>
+                        </div>
+        
+                    </div>     
+        <!--  -->
+                    <div class="row mb-4 ">
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-python fs-1 text-success" ></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px;">Python</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">3 month</div></div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-bootstrap  fs-1 " style="color: blueviolet;"></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px;">Bootstrap</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">2 years</div></div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-laravel fs-1 text-danger" ></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px;">Laravel</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">2 years</div></div>
+                            </div>
+                        </div>
+        
+                    </div>     
+        <!--  -->
+                        
+                      
+                        
+                     
+                    
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row mb-4">
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-css3-alt fs-1 text-warning" ></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px;">Photoshop</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">2 Years</div></div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-css3-alt fs-1 text-warning" ></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px; transition: .6;">Illustrator</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">3 Month</div></div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4 ">
+                            <div class="card wopf shadow">
+                                <div class="card-body ">
+                                    <i class="fab fa-css3-alt fs-1 text-warning" ></i>
+                                    <div class="fs-1 d-flex justify-content-end pt-4" style="margin-bottom: -30px;">Figma</div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-end border-0 bg-white"><div class="mt-auto p-2 bd-highlight  ">6 Month</div></div>
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="row mb-5 mt-5"></div> 
+                    <div class="row mb-5 mt-5"></div> 
+                    <div class="row mb-5 mt-5"></div> 
+                    <div class="row mb-5 mt-5"></div> 
+                    <div class="row mb-1 mt-1"></div> 
+                        
+        <!--  -->
+        
+                        
+                    </div>  
+
+
                     </div>
                 </div>
-
-                
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
-                        </div>
-                    </div>
-                </div>
-
-                
+               
+              </div>
             </div>
-            <div class="row mb-4">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
-                        </div>
-                    </div>
-                </div>
-
-                
-            </div>
-            <div class="row mb-4">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, molestiae dolorem quaerat quidem, dolorum consequatur inventore quas necessitatibus provident facere explicabo perferendis non sed expedita dolore veniam omnis animi aliquam.
-                        </div>
-                    </div>
-                </div>
-
-                
-            </div>
-
+            <!-- akhir skill tab -->
+          
             
+            
+            
+        <!-- row skill -->
+        
+            <!--  -->
    <!-- akhir wrapper-skill -->
   
    
